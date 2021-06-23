@@ -63,8 +63,6 @@ main section.categories-show {
         font-size: 1em;
       }
 
-      
-
       &:hover {
 
         border-color: #999;
@@ -87,4 +85,12 @@ main section.products-show {
   }
 }
 
+main section.orders-show {
+
+  .orderDesc {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+
+}
 
