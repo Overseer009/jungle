@@ -1,7 +1,6 @@
-
 require 'rails_helper'
 
-RSpec.feature "ProductDetails", type: :feature, js: true do 
+RSpec.feature "AddToCarts", type: :feature, js: true do
   
   before :each do
     @category = Category.create! name: 'Apparel'
@@ -14,14 +13,17 @@ RSpec.feature "ProductDetails", type: :feature, js: true do
         price: 64.99
       )
     end
-  end
 
-  scenario "see all product details" do
+    
+  end
+  
+  scenario "my cart +1" do
     visit root_path
 
-    find("header a").click
+    find("button.btn").click
     sleep 5
-    # save_screenshot
-    expect(page).to have_content 'Apparel'
+    save_screenshot
+    expect(page).to have_content('My Cart (1)')
   end
+  
 end
