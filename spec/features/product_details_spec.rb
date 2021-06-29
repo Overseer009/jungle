@@ -1,3 +1,4 @@
+
 require 'rails_helper'
 
 RSpec.feature "ProductDetails", type: :feature, js: true do 
