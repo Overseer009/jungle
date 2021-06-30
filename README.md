@@ -4,7 +4,10 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Screenshots
 
-
+![home page](https://github.com/Overseer009/jungle/blob/master/docs/home_page.png)
+![admin category](https://github.com/Overseer009/jungle/blob/master/docs/admin_category.png)
+![admin product](https://github.com/Overseer009/jungle/blob/master/docs/admin_product.png)
+![empty cart](https://github.com/Overseer009/jungle/blob/master/docs/empty_cart.png)
 
 ## Additional Steps for Apple M1 Machines
 
